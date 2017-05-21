@@ -339,10 +339,14 @@ h6 {
 	padding: 7em 0;
 }
 
+#fh5co-about-us .container {
+	width: 85%;
+}
+
 #fh5co-about-us .bg_team {
 	padding: 50px;
 	background-image: url('../images/bg_team.jpg');
-	background-size: 100% 100%;
+	background-size: 100% 120%;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -393,7 +397,6 @@ h6 {
 #fh5co-testimonials .box-testimony blockquote {
 	position: relative;
 	padding: 40px;
-	padding-left: 0;
 	border-left: none;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
