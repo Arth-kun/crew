@@ -52,6 +52,7 @@ a:focus {
 
 p {
 	margin-bottom: 1.5em;
+	font-size: 1.3em;
 }
 
 h1,
@@ -64,6 +65,24 @@ h6 {
 	text-transform: none !important;
 	font-weight: 400;
 	font-family: 'Ilana Bloom';
+}
+
+h2.classic,
+h3.classic {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+h2.green {
+	color: #65d269;
+}
+
+.padding-top {
+	padding-top: 3em;
+}
+
+.margin-left-top {
+	margin-top: -50px;
+	margin-left: 150px;
 }
 
 ::-webkit-selection {
@@ -336,7 +355,7 @@ h6 {
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press {
-	padding: 7em 0;
+	padding: 5em 0;
 }
 
 #fh5co-about-us .container {
@@ -539,6 +558,7 @@ h6 {
 	text-align: center;
 }
 
+#fh5co-concept,
 #fh5co-our-services,
 #fh5co-press {
 	background: #f4f4f4;
@@ -633,6 +653,10 @@ h6 {
 
 #fh5co-features {
 	padding: 7em 0;
+}
+
+#fh5co-features .container {
+	width: 80%;
 }
 
 @media screen and (max-width: 768px) {
